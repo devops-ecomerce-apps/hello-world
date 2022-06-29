@@ -30,7 +30,20 @@
       <id>site-server</id>
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
-    </site>
+	  </site>
+	    <repository>
+	      <id>nexus</id>
+	      <name>somu  Releases Nexus Repository</name>
+	      <url>http://3.108.196.121:8081/repository/maven-web-app-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>somu snapshot r </name>
+	      <url>http://3.108.196.121:8081/repository/maven-web-app-snapshot/</url>
+	    </snapshotRepository>
+	
+
   </distributionManagement>
 
   <build>
@@ -209,21 +222,7 @@
       </dependency>
 	    </dependencyManagement>
        
-         <distributionManagement>
-	    <repository>
-	      <id>nexus</id>
-	      <name>somu  Releases Nexus Repository</name>
-	      <url>http://3.108.196.121:8081/repository/maven-web-app-release/</url>
-	    </repository>
-	    
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>somu snapshot r </name>
-	      <url>http://3.108.196.121:8081/repository/maven-web-app-snapshot/</url>
-	    </snapshotRepository>
-	    
-	</distributionManagement>
-    </dependencies>
+             </dependencies>
            
   
 

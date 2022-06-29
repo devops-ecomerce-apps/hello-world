@@ -207,9 +207,7 @@
         <version>1.8.5</version>
         <scope>test</scope>
       </dependency>
-    </dependencies>
-           
-  </dependencyManagement>
+	    </dependencyManagement>
        
          <distributionManagement>
 	    <repository>
@@ -225,6 +223,9 @@
 	    </snapshotRepository>
 	    
 	</distributionManagement>
+    </dependencies>
+           
+  
 
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>

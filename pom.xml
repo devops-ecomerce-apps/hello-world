@@ -208,7 +208,23 @@
         <scope>test</scope>
       </dependency>
     </dependencies>
+           
   </dependencyManagement>
+       
+         <distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>somu  Releases Nexus Repository</name>
+	      <url>http://3.108.196.121:8081/repository/maven-web-app-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>somu snapshot r </name>
+	      <url>http://3.108.196.121:8081/repository/maven-web-app-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 
   <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>

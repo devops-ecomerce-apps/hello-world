@@ -14,7 +14,7 @@
   <properties>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
-    <sonar.host.url>http://52.66.171.141:9000/</sonar.host.url>
+    <sonar.host.url>http://13.233.148.111:9000/</sonar.host.url>
     <sonar.login>admin</sonar.login> 
     <sonar.password>admin</sonar.password> 
            
@@ -34,13 +34,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>somu  Releases Nexus Repository</name>
-	      <url>http://3.108.196.121:8081/repository/maven-web-app-release/</url>
+	      <url>http://13.127.64.58:8081/repository/maven-web-app-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>somu snapshot r </name>
-	      <url>http://3.108.196.121:8081/repository/maven-web-app-snapshot/</url>
+	      <url>http://13.127.64.58:8081/repository/maven-web-app-snapshot/</url>
 	    </snapshotRepository>
 	
 
